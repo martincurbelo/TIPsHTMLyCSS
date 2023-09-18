@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Centrar con Position en CSS</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+	<div style="display: flex; justify-content: space-between; width: 90%; margin-left: 5%; margin-top: 5%;">
+		<h1 style="text-align: left;color:blue; font-size:xx-large; font-weight: 600; line-height: 1em">Como centrar
+			etiquetas en HTML 5 y CSS 3</h1>
+		<h1 style="text-align: right;color:blue; font-size:xx-large; font-weight: 600; line-height: 1em">&copy 2023</h1>
+	</div>
+
+	<hr style="color: #ff0000; border: 2px solid #ff0fff; width: 90%; margin: 10px auto; height: 3px;">
+
+	<!-- ¿Si es un texto? -->
+	<h3 style="margin-left: 5%;">Contenedor 1: Si es un texto</h3>
+	<div class="contenedora contenedora1">Texto</div>
+
+
+	<!-- Position: Static y Relative -->
+	<!-- Centrar en clásica 1 etiqueta en horizontal -->
+	<h3 style="margin-left: 5%">Contenedor 2: Centrar en clásica 1 etiqueta en horizontal</h3>
+	<div class="contenedora contenedora2">
+		<div class="item">1</div>
+	</div>
+
+	<!-- Centrar en clásica +1 (muchas) etiquetas en horizontal -->
+	<h3 style="margin-left: 5%;">Contenedor 3: Centrar en clásica +1 (muchas) etiquetas en horizontal</h3>
+	<div class="contenedora contenedora3">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+		<div class="item">4</div>
+	</div>
+
+	<!-- Centrar en clásica 1 etiqueta en vertical -->
+	<h3 style="margin-left: 5%;">Contenedor 4: Centrar en clásica 1 etiqueta en vertical</h3>
+	<div class="contenedora contenedora4">
+		<div class="item">1</div>
+	</div>
+
+
+	<!-- Centrar en clásica +1 (muchas) etiquetas en vertical -->
+	<h3 style="margin-left: 5%;">Contenedor 5: Centrar en clásica +1 (muchas) etiquetas en vertical</h3>
+	<div class="contenedora contenedora5">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+		<div class="item">4</div>
+		<div class="item">5</div>
+	</div>
+
+	<!-- Centrar con flex en horizontal -->
+	<h3 style="margin-left: 5%;">Contenedor 6: Centrar con flex en horizontal</h3>
+	<div class="contenedora contenedora6">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+	</div>
+
+	<!-- Centrar con flex en vertical -->
+	<h3 style="margin-left: 5%;">Contenedor 7: Centrar con flex en vertical</h3>
+	<div class="contenedora contenedora7">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+	</div>
+
+	<!-- Position: Absolute y Fixed -->
+	<!-- Centrar en horizontal con margin con píxeles -->
+	<h3 style="margin-left: 5%;">Contenedor 8: Position: Absolute y Fixed, Centrar en horizontal con margin con píxeles
+	</h3>
+	<div class="contenedora contenedora8">
+		<div class="item">1</div>
+	</div>
+
+	<!-- Centrar en vertical con margin con pixeles -->
+	<h3 style="margin-left: 5%;">Contenedor 9: Centrar en vertical con margin con pixeles</h3>
+	<div class="contenedora contenedora9">
+		<div class="item">1</div>
+	</div>
+
+	<!-- Centrar en horizontal con calc() con píxeles -->
+	<h3 style="margin-left: 5%;">Contenedor 10: Centrar en horizontal con calc() con píxeles</h3>
+	<div class="contenedora contenedora10">
+		<div class="item">1</div>
+	</div>
+
+	<!-- Centrar en vertical con calc() con pixeles -->
+	<h3 style="margin-left: 5%;">Contenedor 11: Centrar en vertical con calc() con pixeles</h3>
+	<div class="contenedora contenedora11">
+		<div class="item">1</div>
+	</div>
+
+	<!-- Centrar en horizontal con porcentaje -->
+	<h3 style="margin-left: 5%;">Contenedor 12: Centrar en horizontal con porcentaje</h3>
+	<div class="contenedora contenedora12">
+		<div class="item">1</div>
+	</div>
+
+	<!-- Centrar en vertical con porcentaje -->
+	<h3 style="margin-left: 5%;">Contenedor 13: Centrar en vertical con porcentaje</h3>
+	<div class="contenedora contenedora13">
+		<div class="item">1</div>
+	</div>
+
+
+	<!-- Centrar en horizontal con transform -->
+	<h3 style="margin-left: 5%;">Contenedor 14: Centrar en horizontal con transform</h3>
+	<div class="contenedora contenedora14">
+		<div class="item">1</div>
+	</div>
+
+	<!-- Centrar en vertical con transform -->
+	<h3 style="margin-left: 5%;">Contenedor 15: Centrar en vertical con transform</h3>
+	<div class="contenedora contenedora15">
+		<div class="item">1</div>
+	</div>
+
+	<hr style="color: #ff0000; border: 2px solid #ff0fff; width: 90%; margin: 10px auto; height: 3px;">
+
+</body>
+
+</html>
