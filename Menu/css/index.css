@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Controla el tamaño mínimo al cual se puede achicar el viewport */
+html, body {
+    min-width: 900px; /* Establece el ancho mínimo */
+    min-height: 500px; /* Establece la altura mínima */
+}
+
+
+/* Color */
+body {
+    background-color: white;
+}
+
+/* Fonts */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header div */
+.header {
+    background: linear-gradient(to bottom, rgb(0, 0, 255), rgb(150, 90, 255));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4 rem;
+    padding: 0.3rem 10%;
+}
+
+/* Header logo */
+.header .logo img {
+    height: 3.5rem;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.1);
+}
+
+/* Header nav */
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 1rem;
+    transition: all 0.1s;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links a {
+    font-size: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+/* Header Button */
+.header .btn-login{
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    border: none;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    color: white;    
+    background: linear-gradient(to bottom, rgb(0, 255, 100), green, rgb(0, 255, 100));
+    transition: all 0.1s ease 0s;
+}
+
+.header .btn-login:hover{
+    transform: scale(1.1);
+}
